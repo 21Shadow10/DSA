@@ -29,5 +29,33 @@ int main()
     OJ
     w(t)
     {
-        ll n;
-        cin>>n;
+        ll x;
+        cin>>x;
+
+        if(x==0 || x==1)
+            cout<<x+1<<endl;
+
+        else if(floor(log2(x)) == ceil(log2(x))) {
+            cout<<x<<endl ;
+        }
+
+        else if(floor(log2(x+1)) == ceil(log2(x+1))) {
+            cout<<x+1<<endl ;
+        }
+
+        else {
+            ll ans = 1;
+            while(ans<=x)
+                ans*=2;
+
+            cout<<ans/2<<endl ;
+        }
+    }
+ 
+ 
+ 
+ 
+ 
+return 0;
+   
+}
