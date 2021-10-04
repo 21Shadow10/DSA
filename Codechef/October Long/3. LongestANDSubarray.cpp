@@ -26,7 +26,7 @@ typedef pair< int ,int > pii;
  
 int main() 
 {
-    OJ
+    //OJ
     w(t)
     {
         ll n;

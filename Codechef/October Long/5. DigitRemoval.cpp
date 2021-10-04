@@ -57,7 +57,7 @@ ll solve(ll n, int d, bool &flag) {
  
 int main() 
 {
-    OJ
+    //OJ
     w(t)
     {
         ll n;
